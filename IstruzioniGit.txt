@@ -1,1 +1,14 @@
-Ciao 
+Istruzioni di configurazione di git
+
+git config --global user.name "MioNome"
+git config --global user.email "miaemail"
+git config --global --list
+
+Creare un nuovo progetto git locale e caricarlo su GitHub
+
+git init
+git add .
+git commit -m "Commento"
+git branch -M main
+git remote add origini "Indirizzo link"
+git push -u origin main 
