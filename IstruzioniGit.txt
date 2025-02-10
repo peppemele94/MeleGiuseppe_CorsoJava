@@ -12,3 +12,10 @@ git commit -m "Commento"
 git branch -M main
 git remote add origini "Indirizzo link"
 git push -u origin main 
+
+
+Una volta modificate e agiunti un file
+
+git add .
+git commit -m "Modifica" 
+git push
